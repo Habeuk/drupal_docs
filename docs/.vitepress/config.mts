@@ -1,14 +1,14 @@
 import { defineConfig } from "vitepress";
-import { useData } from "vitepress";
+// import { useData } from "vitepress";
 
-/**
- * Get the current language of the site.
- * @returns {string} The current language.
- */
-function getCurrentLang() {
-  const { site } = useData();
-  return site.value.lang;
-}
+// /**
+//  * Get the current language of the site.
+//  * @returns {string} The current language.
+//  */
+// function getCurrentLang() {
+//   const { site } = useData();
+//   return site.value.lang;
+// }
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -80,19 +80,20 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Presentation", link: "/fr/docs" },
-      { text: "Installation", link: "/fr/docs/installation" },
+      { text: "Installation", link: "/fr/docs/installation-new" },
+      { text: "Layouts", link: "/fr/docs/layouts" },
     ],
     sidebar: [
       {
-        text: "Examples",
+        text: "Installation",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "Nouvelle installation", link: "/fr/docs/installation-new" },
+          { text: "Ancienne installation", link: "/fr/docs/installation-old" },
         ],
       },
     ],
     i18nRouting: true,
-    logo: "https://habeuk.com/sites/default/files/styles/medium/public/2024-11/hlogo.png",
+    logo: "../../assets/logo-habeuk.png",
     // locales: {
     //   "/fr/": {
     //     nav: [
@@ -117,4 +118,27 @@ export default defineConfig({
       },
     ],
   },
+  vue: {
+    // @vitejs/plugin-vue options
+  },
+  head: [
+    ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
+    ["link", { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }],
+    ["link", { href: "https://fonts.googleapis.com/css2?family=Roboto&display=swap", rel: "stylesheet" }],
+    ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=TAG_ID" }],
+    [
+      "script",
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'TAG_ID');`,
+    ],
+  ],
+  rewrites: {
+    //"source/:page": "destination/:page",
+    // "/": "/en/",
+  },
+  ignoreDeadLinks: false,
+  assetsDir: "assets",
 });
