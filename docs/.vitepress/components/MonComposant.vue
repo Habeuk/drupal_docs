@@ -1,5 +1,5 @@
 <template>
-  <div class="feature d-flex align-items-center">
+  <a class="feature d-flex align-items-center" :href="href">
     <div class="me-3">
       <slot name="icone">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="2rem" height="2rem">
@@ -18,9 +18,16 @@
         <slot name="footer"></slot>
       </footer>
     </div>
-  </div>
+  </a>
 </template>
 
-<script>
-// Votre logique ici
+<script setup>
+import { defineProps } from "vue";
+defineProps({
+  href: {
+    type: String,
+    required: false,
+    default: "#",
+  },
+});
 </script>
