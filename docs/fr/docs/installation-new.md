@@ -1,6 +1,6 @@
 # Installation du site
 
-Cette installation est adapté pour l'installation d'un nouveau site, si vous avez un site vous devez suivre "acienne installation".
+Cette installation est adapté pour un nouveau site, si vous avez un site vous devez suivre "acienne installation".
 Vous devez dezipper le dossier que vous avez telechargé. La structuration de ce dossier est la suivante.
 recommandations :
 
@@ -51,4 +51,6 @@ Les informations à verifier sont :
 - port : qui peut varier en fonction de l'hebergeur
 
 Acceder au gestionnaire de base de données par exemple : phpmyadmin ou adminer ...
-Importer la base de donnée presente dans
+Importer la base de donnée presente dans "new-installation/database".
+
+Voila, vous avez terminé, votre site est pres à l'utilisation.

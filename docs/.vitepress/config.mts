@@ -85,15 +85,35 @@ export default defineConfig({
     ],
     sidebar: [
       {
+        text: "Support et licence du theme",
+        link: "/fr/docs/support-licence",
+      },
+      {
         text: "Installation",
         items: [
           { text: "Nouvelle installation", link: "/fr/docs/installation-new" },
           { text: "Ancienne installation", link: "/fr/docs/installation-old" },
         ],
       },
+      {
+        text: "Configuration du theme",
+        link: "/fr/docs/configuration-theme",
+      },
+      {
+        text: "Gestion du contenu",
+      },
+      {
+        text: "Gestion des produits",
+      },
+      {
+        text: "Mise à jour",
+      },
+      {
+        text: "Astuces et cas pratiques",
+      },
     ],
     i18nRouting: true,
-    logo: "../../assets/logo-habeuk.png",
+    logo: "/assets/logo-habeuk.png",
     // locales: {
     //   "/fr/": {
     //     nav: [
