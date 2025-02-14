@@ -9,6 +9,9 @@ hero:
 Le theme <b>E-commerce sale of bags</b> (ESB) est un theme Drupal qui vous permet d'avoir un site e-commerce de qualité en quelques cliques. Nous nous chargeons de tout ce qui est technique afin que vous poussiez vous concentrer principalement sur la vente.
 <br>
 <strong>ESB</strong> est contruit au tour du module [layout-builder](https://www.drupal.org/docs/8/core/modules/layout-builder) et offre plus de 100 modeles d'affichage vous permettant de creer rapidement de nouvelle page. Construit pour la version 10 de Drupal, ce theme est entirement responsive et mets en place une gestion facile des styles ( couleurs, tailles police, taille des titres, espacement ...).
+:::info
+Note : Ce theme est developpé et testé sur un environnement linux, car pres de **95%** des serveurs d'hebergement sont sous linux.
+:::
 
 <h4> Veuillez consulter les articles ci-dessous pour la documentation du thème et le guide d'installation. </h4>
 <div class="summary d-flex flex-wrap">

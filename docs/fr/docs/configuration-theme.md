@@ -1,41 +1,55 @@
-# Configuration du theme
+# Configuration du Thème
 
-Le theme E-commerce sale of bags (ESB) est un theme Drupal qui fournit les options de configuration vous permettant d'ajuster la maniere donc votre site apparait. Ce theme dispose de 10 regions, vous permettant de creer des mises en page complexes. Vous pouvez egalement configurer les couleurs, les polices et les tailles de texte, les options de mise en page et bien plus encore.
-Allez dans 'admin/appearance/settings/habeuk\*theme' pour acceder aux options de configuration du theme. <i>( Ce theme herite sa configuration du theme [Wb Universe](https://www.drupal.org/project/wb_universe) ).</i>
+Le thème **E-commerce Sale of Bags (ESB)** est un thème Drupal offrant des options de configuration avancées pour personnaliser l'apparence de votre site. Ce thème propose **10 régions**, permettant la création de mises en page complexes. Vous pouvez configurer les couleurs, les polices, les tailles de texte, les options de mise en page, et bien plus encore en suivant le guide de la configuration avancé.  
+Pour accéder aux options de configuration du thème, rendez-vous dans `admin/appearance/settings/habeuk_theme`.  
+_Ce thème hérite de la configuration du thème [Wb Universe](https://www.drupal.org/project/wb_universe)._
 
-### Ajout des cles de google analitique et facebook api.
+### Ajout des clés Google Analytics et Facebook API
 
-Creer un compte google analytique et facebook api pour obtenir les cles d'acces. Ajoutez les cles dans les champs prevus a cet effet.
-![google analytique key and facebook](/assets/google-analytique-key--facebook-api.png)
+1. Créez un compte **Google Analytics** et **Facebook API** pour obtenir les clés d'accès.
+2. Ajoutez ces clés dans les champs prévus à cet effet dans l'interface d'administration.  
+   ![Google Analytics et Facebook API](/assets/google-analytique-key--facebook-api.png)
 
-### Configuration du group : "Pages templates"
+### Configuration du groupe : **Pages Templates**
 
-Ce groupe contient les options de configuration des pages, permet de definir la taille des conteneurs de vos differentes pages
-Dans ce groupe vous disposez de 4 sous groupes, chaque sous groupe contient des liens de page et un champs "Select container".
-Le champs "Select container" vous propose 4 options de taille :
+Ce groupe permet de configurer les options des pages, notamment la taille des conteneurs pour les différentes pages. Il est divisé en **4 sous-groupes**, chacun contenant des liens de page et un champ **"Select container"**.  
+Le champ **"Select container"** propose 4 options de taille :
 
-- Container : qui affiche un affichage moyen environ 1200px.
-- Container-fluid : qui affiche un affichage large.
-- Width-tablette : qui affiche un affichage moyen pour les tablettes. ( ideal pour les pages de contenu ).
-- Width-phone : qui affiche un affichage moyen pour les mobiles.
-  ![settings wb-univere page templates](/assets/settings-wb-universe-page-templates.png)
+- **Container** : Affichage moyen (environ 1200px).
+- **Container-fluid** : Affichage large.
+- **Width-tablette** : Affichage moyen optimisé pour les tablettes (idéal pour les pages de contenu).
+- **Width-phone** : Affichage moyen optimisé pour les mobiles.
 
-### Configuration du group : "Mise en page"
+![Paramètres des modèles de pages Wb Universe](/assets/settings-wb-universe-page-templates.png)
 
-Ce groupe de configuration vous permet de selectionner l'affichage d'une colonne de gauche ou de droite sur vos pages. Vous pouvez egalement choisir la taille de la colonne de gauche ou de droite via des classes bootstrap ou des classes css ( vous devez creer les styles rattacher à ces classes).
-![settings wb-univere layout](/assets/wb-universe-settings-mise-en-page.png)
+### Configuration du groupe : **Mise en Page**
 
-### Configuration du group : "Formulaire"
+Ce groupe permet de configurer l'affichage des colonnes latérales (gauche ou droite) sur vos pages. Vous pouvez également définir la taille des colonnes en utilisant des classes **Bootstrap** ou des classes **CSS** personnalisées (vous devez créer les styles associés à ces classes).  
+![Paramètres de mise en page Wb Universe](/assets/wb-universe-settings-mise-en-page.png)
 
-Ce groupe de configuration vous permet d'ajouter des classes css sur chacun de vos formulaires, vous pouvez ajouter la classe bootstrap mb-4 afin d'avoir une marge.
-![settings wb-univere Formulaire](/assets/wb-universe-settings-formulaire.png)
+### Configuration du groupe : **Formulaire**
 
-### Configuration du group : "Menu display"
+Ce groupe permet d'ajouter des classes **CSS** à vos formulaires. Par exemple, vous pouvez ajouter la classe Bootstrap **`mb-4`** pour appliquer une marge en bas.  
+![Paramètres des formulaires Wb Universe](/assets/wb-universe-settings-formulaire.png)
 
-Ce groupe de configuration vous permet de selectionner l'affichage de vos menus, vous pouvez choisir entre un affichage horizontal ou vertical.
-L'affichage horizontal est l'affichage par defaut. Dans le champs **class menu**, ajouter la classe "flex-column" ou "navbar-nav" pour un affichage vertical.
-![settings wb-univere menu display](/assets/wb-universe-settings-menu-display.png)
+### Configuration du groupe : **Menu Display**
 
-### Configuration du group : "Class css de la region"
+Ce groupe permet de configurer l'affichage des menus. Vous pouvez choisir entre un affichage **horizontal** (par défaut) ou **vertical**.  
+Pour un affichage vertical, ajoutez la classe **`flex-column`** ou **`navbar-nav`** dans le champ **"Class menu"**.  
+![Paramètres d'affichage des menus Wb Universe](/assets/wb-universe-settings-menu-display.png)
 
-Ce groupe de configuration vous permet d'ajouter des classes css sur chacune de vos regions.
+### Configuration du groupe : **Class CSS de la Région**
+
+Ce groupe permet d'ajouter des classes **CSS** personnalisées à chacune de vos régions.  
+![Paramètres des régions Wb Universe](/assets/wb-universe-settings-region.png)
+
+### Configuration du groupe : **Config Tables**
+
+Ce groupe permet d'ajouter des classes **CSS** aux tableaux.
+
+- Pour le champ **"Custom class for tag table"**, vous pouvez ajouter les classes **`mb-4 table table-striped`**.
+- Pour le champ **"Custom class for container"**, vous pouvez ajouter les classes **`border border-radius-10 px-5 py-4 mb-4`**.
+
+### Conclusion
+
+Le thème **E-commerce Sale of Bags (ESB)** offre une grande flexibilité pour personnaliser l'apparence et la structure de votre site. Vous pouvez ajuster les couleurs, les tailles de police, et bien d'autres paramètres en explorant les options disponibles. Pour des personnalisations supplémentaires, consultez les paramètres avancés du thème.
