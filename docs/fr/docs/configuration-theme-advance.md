@@ -1,13 +1,21 @@
-## Configuration avancé du Thème
+# Configuration avancée du thème
 
-La configuration avancé vous permet de modifier la taille de la police, la taille des titres, les couleurs et bien d'autres options.
-Pour acceder à la configuration avancé du thème, rendez-vous dans `/admin/structure/config_theme_entity`. Sur cette page vous avez la liste des themes qui ont été generer par le module `config_theme_entity`. Cliquez sur "modifier" pour acceder à la configuration du theme.
+La configuration avancée vous permet de personnaliser divers aspects du thème, tels que la taille de la police, la taille des titres, les couleurs, ainsi que de nombreuses autres options.
+
+Pour accéder à la configuration avancée du thème, naviguez vers `/admin/structure/config_theme_entity`. Cette page affiche la liste des thèmes générés par le module `config_theme_entity`. Cliquez sur "Modifier" pour accéder aux paramètres de configuration du thème.
 
 **Remarques :**
 
-- Vous devez garder le champs "Force à regener les fichiers npm" decoché, sauf si vous souhaitez regenerer les fichiers de votre sous theme.
-- Garder le champs "Generate files style ?" si vous avez installer le module nodejs et npm
+- Laissez le champ **"Forcer la régénération des fichiers npm"** décoché, sauf si vous souhaitez régénérer les fichiers de votre sous-thème.
+- Cochez le champ **"Générer les fichiers de style ?"** uniquement si vous avez installé les modules Node.js et npm.
 
 Sur la page de configuration, vous pouvez :
 
-- Modifier la couleur des liens ou des boutons. ![Couleur des liens et boutons](/assets/couleur-liens-boutons.png)
+- **Modifier la couleur des liens ou des boutons**  
+  ![Couleur des liens et boutons](/assets/couleur-liens-boutons.png)
+- **Modifier les couleurs de base**  
+  ![Couleurs de base](/assets/couleurs-base2.png)
+- **Modifier la taille de la police**  
+  ![Taille de la police](/assets/taille-police.png)
+
+Après avoir effectué vos modifications, enregistrez-les. Les styles seront régénérés automatiquement si vous avez coché la case **"Générer les fichiers de style ?"** et que les modules Node.js et npm sont installés.
