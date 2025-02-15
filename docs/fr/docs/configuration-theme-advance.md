@@ -19,3 +19,5 @@ Sur la page de configuration, vous pouvez :
   ![Taille de la police](/assets/taille-police.png)
 
 Après avoir effectué vos modifications, enregistrez-les. Les styles seront régénérés automatiquement si vous avez coché la case **"Générer les fichiers de style ?"** et que les modules Node.js et npm sont installés.
+
+Pour plus d'information voir [la documentation du module config_theme_entity](https://habeuk.com/fr/node/172).

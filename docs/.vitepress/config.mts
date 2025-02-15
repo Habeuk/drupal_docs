@@ -100,7 +100,7 @@ export default defineConfig({
         link: "/fr/docs/configuration-theme",
         items: [
           { text: "Configuration avancée", link: "/fr/docs/configuration-theme-advance" },
-          { text: "Ajout des styles (css/js)", link: "/fr/docs/installation-old" },
+          { text: "Ajout des styles (css/js)", link: "/fr/docs/add-styles" },
         ],
       },
       {
