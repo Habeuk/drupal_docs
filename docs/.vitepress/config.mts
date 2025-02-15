@@ -96,8 +96,20 @@ export default defineConfig({
         ],
       },
       {
+        text: "Commerce",
+        items: [
+          { text: "Gestion des magazins", link: "/fr/docs/commerce/manage-store" },
+          { text: "Gestion des produits", link: "/fr/docs/add-styles" },
+          { text: "Gestion des livraisons", link: "/fr/docs/add-styles" },
+          { text: "Gestion des commandes", link: "/fr/docs/add-styles" },
+          { text: "Gestion des methodes de paiements", link: "/fr/docs/add-styles" },
+          { text: "Gestions des promotions", link: "/fr/docs/add-styles" },
+        ],
+      },
+      {
         text: "Configuration du theme",
         link: "/fr/docs/configuration-theme",
+        collapsed: true,
         items: [
           { text: "Configuration avancée", link: "/fr/docs/configuration-theme-advance" },
           { text: "Ajout des styles (css/js)", link: "/fr/docs/add-styles" },
@@ -106,9 +118,7 @@ export default defineConfig({
       {
         text: "Gestion du contenu",
       },
-      {
-        text: "Gestion des produits",
-      },
+
       {
         text: "Mise à jour",
       },
