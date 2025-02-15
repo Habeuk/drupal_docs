@@ -99,7 +99,7 @@ export default defineConfig({
         text: "Commerce",
         items: [
           { text: "Gestion des magazins", link: "/fr/docs/commerce/manage-store" },
-          { text: "Gestion des produits", link: "/fr/docs/add-styles" },
+          { text: "Gestion des produits", link: "/fr/docs/commerce/products" },
           { text: "Gestion des livraisons", link: "/fr/docs/add-styles" },
           { text: "Gestion des commandes", link: "/fr/docs/add-styles" },
           { text: "Gestion des methodes de paiements", link: "/fr/docs/add-styles" },
