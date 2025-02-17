@@ -43,3 +43,8 @@ Accedez à la page de modification de la variante en cliquant sur le lien 'varia
 - 3 : Contient le prix de la variante. Au niveau de la page de modification, elle correspond au champs 'Prix'.
 - 5 : Contient les attributes de variation. Au niveau de la page de modification, elle correspond au champs 'Couleur' et taille.
   ![Modifier les informations sur une variante](/assets/modifier-les-informations-sur-une-variante.png)
+- 9 : Contient les images du produit. Au niveau de la page de modification, elle correspond au champs 'Galleries'.
+
+**Autres champs :**
+
+- 6 : Le bouton ajouter au panier peut etre modifié en allant sur:
