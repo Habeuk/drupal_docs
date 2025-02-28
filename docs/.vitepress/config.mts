@@ -102,7 +102,7 @@ export default defineConfig({
           { text: "Gestion des produits", link: "/fr/docs/commerce/products" },
           { text: "Gestion des livraisons", link: "/fr/docs/commerce/livraison" },
           { text: "Gestion des commandes", link: "/fr/docs/commerce/commandes" },
-          { text: "Gestion des methodes de paiements", link: "/fr/docs/add-styles" },
+          { text: "Gestion des methodes de paiements", link: "/fr/docs/commerce/paiements" },
           { text: "Gestions des promotions", link: "/fr/docs/add-styles" },
         ],
       },
