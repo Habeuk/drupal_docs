@@ -33,4 +33,5 @@ Pour commencer, vous devez creer un compte **Stripe**. Pour cela, rendez-vous su
 #### Ajouter vos clés d'API à votre boutique
 
 Dans votre site drupal, aller sur `commerce` > `configuration` > `commerce` > `payment gateways` > `Carte bancaire (stripe)` et ajoutez vos clés d'API.
-![stripe](https://stripe.com/img/v3/home/social.png)
+
+![stripe](/assets/clee-api-in-drupal.png)
