@@ -12,6 +12,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  //base: "/e-commerce/",
   base: "/e-commerce/",
   lang: "en-US",
   title: "Documentation theme",
@@ -22,11 +23,13 @@ export default defineConfig({
       lang: "en",
       link: "/en",
     },
+
     "/en/": {
       lang: "en",
       title: "Drupal Documentation",
       description: "English documentation",
       label: "English",
+      link: "/fr",
       themeConfig: {
         nav: [
           { text: "Home", link: "/en" },
@@ -173,7 +176,7 @@ export default defineConfig({
   ],
   rewrites: {
     //"source/:page": "destination/:page",
-    // "/": "/en/",
+    "/": "/en/",
   },
   ignoreDeadLinks: false,
   assetsDir: "assets",
