@@ -96,6 +96,10 @@ export default defineConfig({
         ],
       },
       {
+        text: "Gestion du contenu",
+        link: "/fr/docs/gestion-contenu",
+      },
+      {
         text: "Commerce",
         items: [
           { text: "Gestion des magazins", link: "/fr/docs/commerce/manage-store" },
@@ -116,16 +120,13 @@ export default defineConfig({
           { text: "Ajout des styles (css/js)", link: "/fr/docs/add-styles" },
         ],
       },
-      {
-        text: "Gestion du contenu",
-      },
 
-      {
-        text: "Mise à jour",
-      },
-      {
-        text: "Astuces et cas pratiques",
-      },
+      // {
+      //   text: "Mise à jour",
+      // },
+      // {
+      //   text: "Astuces et cas pratiques",
+      // },
     ],
     i18nRouting: true,
     logo: "/assets/logo-habeuk.png",
