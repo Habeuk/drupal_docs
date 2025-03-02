@@ -1,25 +1,25 @@
-Thank you for purchasing the Drupal theme <strong>E-commerce sale of bags (ESB)</strong>!
-If you need help, you can always contact us here: https://help.keystonethemes.com/support/ or via ThemeForest: https://themeforest.net/user/keystonethemes/portfolio You need to provide a purchase code , we will respond within 1-2 business days. In accordance with the article's support policy, this does not include theme customisation, third-party plugin integration or hosting issues.
+Merci d'avoir acheté le thème Drupal <strong>E-commerce sale of bags (ESB)</strong> !
+Si vous avez besoin d'aide, vous pouvez toujours nous contacter ici : https://help.keystonethemes.com/support/ ou via ThemeForest : https://themeforest.net/user/keystonethemes/portfolio Vous devez fournir un code d'achat , nous vous répondrons dans 1 à 2 jours ouvrables. Conformément à la politique d'assistance de l'article , cela n'inclut pas la personnalisation du thème, l'intégration de plugins tiers et les problèmes d'hébergement.
 
-##### With the [ThemeForest regular licence](https://themeforest.net/licenses/terms/regular), you are allowed to :
+##### Avec la [licence régulière de ThemeForest](https://themeforest.net/licenses/terms/regular), vous êtes autorisé à :
 
-- You are allowed to use the item to create a single end product for yourself or for a client (a ‘single application’), and the end product can be distributed for free
-- You may modify the item and therefore remove unwanted components before creating your unique end product
+- Vous êtes autorisé à utiliser l'élément pour créer un seul produit final pour vous-même ou pour un client (une « application unique »), et le produit final peut être distribué gratuitement
+- Vous pouvez modifier l'article et donc supprimer les composants indésirables avant de créer votre produit final unique
 
-##### You may not:
+##### Vous n'êtes pas autorisé à :
 
-- You may not sell the final product, except to a customer. (If you or your customer wish to sell the final product, you will need the extended licence).
+- Vous ne pouvez pas vendre le produit final, sauf pour un client. (Si vous ou votre client souhaitez vendre le produit final, vous aurez besoin de la licence étendue.)
 
-For more information on licensing, please read https://ThemeForest.net/licenses/faq/ .
+Pour plus d'informations sur la licence, veuillez lire https://ThemeForest.net/licenses/faq/ .
 
-##### Fonts
+##### Polices de caractères
 
-- Poppins (Google Fonts)
-- Inter (Google fonts)
+- Poppins (polices Google)
+- Inter (polices Google)
 
 ##### Images
 
-- Pexels.com - Pixabay licence: pixabay.com/service/license
-- Unsplash.com - Licence: unsplash.com/license
-- Flaticon - Terms of use: [Freepik Company](https://www.freepikcompany.com/legal#nav-flaticon)
-- Freepik - Terms of use : [Freepik Company](https://www.freepikcompany.com/legal#nav-freepik)
+- Pexels.com — Licence Pixabay : pixabay.com/service/license
+- Unsplash.com — Licence : unsplash.com/license
+- Flaticon — Conditions d'utilisation : [Freepik Company](https://www.freepikcompany.com/legal#nav-flaticon)
+- Freepik — Conditions d'utilisation : [Freepik Company](https://www.freepikcompany.com/legal#nav-freepik)

@@ -1,16 +1,16 @@
-# Adding styles
+# Ajout des styles
 
 :::warning
-Make sure you have installed the **Node.js** and **npm** modules on your environment before adding custom styles.
+Assurez-vous d'avoir installé les modules **Node.js** et **npm** sur votre environnement avant de procéder à l'ajout de styles personnalisés.
 :::
 
-### Adding custom styles
+### Ajout de styles personnalisés
 
-The **CSS**, **JS** and **SCSS** files are organised around a specific name, for example `heros_cover`, which groups together the styles associated with the hero section of your site.
+Les fichiers **CSS**, **JS** et **SCSS** sont organisés autour d'un nom spécifique, par exemple `heros_cover`, qui regroupe les styles associés à la section héro de votre site.
 
-![Adding custom styles](/assets/add-styles-list.png)
+![Ajout de styles personnalisés](/assets/add-styles-list.png)
 
-- Click on the **Add custom styles** button to create a new style.
-- To modify an existing style, click on the **Edit via editor** button.
+- Cliquez sur le bouton **Ajouter les styles personnalisés** pour créer un nouveau style.
+- Pour modifier un style existant, cliquez sur le bouton **Edit via editor**.
 
-For more information, see [the Layoutgenentitystyles module documentation](https://habeuk.com/fr/node/173).
+Pour plus d'informations, consultez [la documentation du module Layoutgenentitystyles](https://habeuk.com/fr/node/173).

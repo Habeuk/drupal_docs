@@ -1,12 +1,12 @@
-# Site installation
+# Installation du site
 
-This installation is adapted for a new site, if you have a site you must follow ‘old installation’.
-You must unzip the folder you have downloaded. This folder is structured as follows.
-recommendations :
+Cette installation est adapté pour un nouveau site, si vous avez un site vous devez suivre "acienne installation".
+Vous devez dezipper le dossier que vous avez telechargé. La structuration de ce dossier est la suivante.
+recommandations :
 
 - PHP >= 8.3
 - mariadb >= 10.10
-  optional:
+  optionnel:
 - nodejs >= 20
 - npm >= 9
 <pre>
@@ -18,9 +18,9 @@ recommendations :
 -- modules
 </pre>
 
-The ‘new-installation’ folder contains the database files.
-Copy the contents of public to your hosting space.
-Modify the sites/default/settings.php file by inserting the correct information for connecting to the DB.
+Le dossier "new-installation" contient les fichiers la base de données.
+Copier le contenu de public dans votre espace d'hebergement.
+Modifier le fichier sites/default/settings.php en y inserrant les bonnes informations pour la connexion à la BD.
 
 ```php
 <?php
@@ -39,18 +39,18 @@ $databases['default']['default'] = array(
 );
 ```
 
-The information to be modified is :
+Les informations à modifier sont :
 
-- database_name
-- user_name
-- password
+- nom_de_la_base_de_donnees
+- nom_utilisateur
+- mot_de_passe
 
-The information to check is :
+Les informations à verifier sont :
 
-- 127.0.0.1: which may vary depending on the host
-- port: which may vary depending on the hosting provider
+- 127.0.0.1 : qui peut varier en fonction de l'hebergeur
+- port : qui peut varier en fonction de l'hebergeur
 
-Access the database manager for example: phpmyadmin or adminer ...
-Import the database present in ‘new-installation/database’.
+Acceder au gestionnaire de base de données par exemple : phpmyadmin ou adminer ...
+Importer la base de donnée presente dans "new-installation/database".
 
-That's it, you're done, your site is ready to use.
+Voila, vous avez terminé, votre site est pres à l'utilisation.

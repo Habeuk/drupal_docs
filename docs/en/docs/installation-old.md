@@ -1,10 +1,10 @@
-# installing on an old environment
+# installation sur un ancien environnement
 
-You have an existing site and want to install our theme. Here are the steps to follow:
+Vous disposez d'un site existant et vous souhaitez installer notre theme. Voici les étapes à suivre :
 
-- module installation: retrieve the modules from the `old-installation/modules` folder and copy them to the `modules` folder on your site.
-- theme installation: retrieve the themes from the `old-installation/themes` folder and copy them to the `themes` folder on your site.
+- installation des modules : recuperer les modules dans le dossier `old-installation/modules` et les copier dans le dossier `modules` de votre site.
+- installation des themes : recuperer les themes dans le dossier `old-installation/themes` et les copier dans le dossier `themes` de votre site.
 
-Then, install the modules you have just copied by going to the `admin/modules` page on your site and also install the ‘habeuk_theme’ theme by going to the `admin/appearance` page. Set this theme as the default theme.
+Puis, installé les modules que vous venez de copier en vous rendant sur la page `admin/modules` de votre site et installer egalement le theme 'habeuk_theme' en vous rendant sur la page `admin/appearance`. Definir ce theme comme theme par defaut.
 
-The ‘habeuk_theme’ theme is now installed on your site, you need to follow the rest of the documentation to see how to add products, pages and other elements to your site.
+Le theme 'habeuk_theme' est maintenant installé sur votre site, vous devez suivre le reste de la documentation afin de voir comment ajouter les produits, les pages et les autres elements de votre site.

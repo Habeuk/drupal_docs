@@ -1,19 +1,19 @@
-# Store configuration
+# Configuration du magasin
 
-Shops are entities representing physical or online points of sale. They are used to manage stocks, prices and orders. You can create several shops to manage several points of sale or several websites.
+Les magasins sont des entités représentant des points de vente physiques ou en ligne. Ils permettent de gérer les stocks, les prix et les commandes. Vous pouvez créer plusieurs magasins pour administrer plusieurs points de vente ou plusieurs sites web.
 
-## Currency management
+## Gestion des devises
 
-Currencies are used to display product prices. You can add several currencies to your shop and define a default currency.
+Les devises sont utilisées pour afficher les prix des produits. Vous pouvez ajouter plusieurs devises à votre magasin et définir une devise par défaut.
 
-Go to : `/admin/commerce/config/currencies`  
-![Currency management](/assets/currency-management.png)  
-On this page, you can add, modify or delete currencies.
+Accédez à : `/admin/commerce/config/currencies`  
+![Gestion des devises](/assets/gestion-des-devises.png)  
+Sur cette page, vous pouvez ajouter, modifier ou supprimer des devises.
 
-## Shop management
+## Gestion des magasins
 
-The shop allows you to define basic information such as currency, physical address, etc.
+Le magasin vous permet de définir des informations de base telles que la devise, l'adresse physique, etc.
 
-Go to : `/admin/commerce/config/stores`  
-You can modify an existing shop or add a new one.  
-![Shop management](/assets/store-management.png)
+Accédez à : `/admin/commerce/config/stores`  
+Vous pouvez modifier une boutique existante ou en ajouter une nouvelle.  
+![Gestion des magasins](/assets/gestion-des-magasins.png)
