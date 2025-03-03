@@ -1,26 +1,28 @@
 # Installation du site
 
-Cette installation est adapté pour un nouveau site, si vous avez un site vous devez suivre "acienne installation".
-Vous devez dezipper le dossier que vous avez telechargé. La structuration de ce dossier est la suivante.
-recommandations :
+Cette installation est adaptée pour un nouveau site. Si vous avez déjà un site, vous devez suivre "ancienne installation".  
+Vous devez dézipper le dossier que vous avez téléchargé. La structure de ce dossier est la suivante.
+
+**Recommandations :**
 
 - PHP >= 8.3
-- mariadb >= 10.10
-  optionnel:
-- nodejs >= 20
+- MariaDB >= 10.10  
+  **Optionnel :**
+- Node.js >= 20
 - npm >= 9
-<pre>
+
+```
 - new-installation
   -- public
   -- database.
 - old-installation
--- themes
--- modules
-</pre>
+  -- themes
+  -- modules
+```
 
-Le dossier "new-installation" contient les fichiers la base de données.
-Copier le contenu de public dans votre espace d'hebergement.
-Modifier le fichier sites/default/settings.php en y inserrant les bonnes informations pour la connexion à la BD.
+Le dossier `new-installation` contient les fichiers de la base de données.  
+Copiez le contenu du dossier `public` dans votre espace d'hébergement.  
+Modifiez le fichier `sites/default/settings.php` en y insérant les bonnes informations pour la connexion à la base de données.
 
 ```php
 <?php
@@ -45,12 +47,12 @@ Les informations à modifier sont :
 - nom_utilisateur
 - mot_de_passe
 
-Les informations à verifier sont :
+Les informations à vérifier sont :
 
-- 127.0.0.1 : qui peut varier en fonction de l'hebergeur
-- port : qui peut varier en fonction de l'hebergeur
+- `127.0.0.1` : qui peut varier en fonction de l'hébergeur
+- `port` : qui peut varier en fonction de l'hébergeur
 
-Acceder au gestionnaire de base de données par exemple : phpmyadmin ou adminer ...
-Importer la base de donnée presente dans "new-installation/database".
+Accédez au gestionnaire de base de données, par exemple : phpMyAdmin ou Adminer.  
+Importez la base de données présente dans `new-installation/database`.
 
-Voila, vous avez terminé, votre site est pres à l'utilisation.
+Voilà, vous avez terminé. Votre site est prêt à l'utilisation.

@@ -1,23 +1,23 @@
-# Création et Gestion de Coupons dans Drupal Commerce
+# Creating and Managing Coupons in Drupal Commerce
 
-Les coupons représentent un outil marketing puissant pour promouvoir vos produits et stimuler les ventes. Grâce à Drupal Commerce, vous pouvez facilement créer des coupons de réduction afin d'offrir des remises attractives sur les commandes. Ce guide vous explique étape par étape comment configurer et gérer des coupons pour votre boutique en ligne.
+Coupons are a powerful marketing tool to promote your products and boost sales. With Drupal Commerce, you can easily create discount coupons to offer attractive deals on orders. This guide explains step by step how to set up and manage coupons for your online store.
 
-## Prérequis
+## Prerequisites
 
-Avant de créer des coupons, vous devez configurer une promotion. Par exemple, vous pouvez définir une promotion telle que **"Livraison offerte à partir de 100€"**.
+Before creating coupons, you need to configure a promotion. For example, you can define a promotion such as **"Free shipping for orders over €100"**.
 
-Pour activer les coupons, cochez la case **`Bons de réduction`** lors de la création de votre promotion.
+To enable coupons, check the **`Discount Coupons`** box when creating your promotion.
 
-![Ajouter une promotion avec coupon](/assets/add-promotion-select-coupon.png)
+![Add a promotion with a coupon](/assets/add-promotion-select-coupon.png)
 
-## Ajouter des Coupons de Réduction
+## Adding Discount Coupons
 
-1. **Accéder à la section des coupons** : Dans l'interface d'administration, cliquez sur **`Bons de réduction`** dans l'onglet correspondant.
+1. **Access the Coupons Section**: In the administration interface, click on **`Discount Coupons`** in the corresponding tab.
 
-   ![Ajouter un coupon](/assets/add-coupon.png)
+   ![Add a coupon](/assets/add-coupon.png)
 
-2. **Créer un coupon** : Vous avez deux options :
-   - Cliquez sur **`Ajouter un coupon`** pour créer un coupon individuel.
-   - Utilisez l'option **`Générer des coupons`** pour créer plusieurs coupons en une seule opération.
+2. **Create a Coupon**: You have two options:
+   - Click **`Add Coupon`** to create a single coupon.
+   - Use the **`Generate Coupons`** option to create multiple coupons in one operation.
 
-Ces fonctionnalités vous permettent de personnaliser vos offres promotionnelles et d'adapter votre stratégie marketing aux besoins spécifiques de votre entreprise.
+These features allow you to customize your promotional offers and adapt your marketing strategy to the specific needs of your business.

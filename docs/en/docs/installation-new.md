@@ -1,26 +1,27 @@
-# Installation du site
+# Site Installation
 
-Cette installation est adapté pour un nouveau site, si vous avez un site vous devez suivre "acienne installation".
-Vous devez dezipper le dossier que vous avez telechargé. La structuration de ce dossier est la suivante.
-recommandations :
+This installation is designed for a new site. If you already have an existing site, you should follow the "old installation" instructions.  
+You need to unzip the folder you downloaded. The structure of this folder is as follows.
+
+**Requirements:**
 
 - PHP >= 8.3
-- mariadb >= 10.10
-  optionnel:
-- nodejs >= 20
+- MariaDB >= 10.10  
+  **Optional:**
+- Node.js >= 20
 - npm >= 9
-<pre>
-- new-installation
-  -- public
-  -- database.
-- old-installation
+
+new-installation
+-- public
+-- database
+
+old-installation
 -- themes
 -- modules
-</pre>
 
-Le dossier "new-installation" contient les fichiers la base de données.
-Copier le contenu de public dans votre espace d'hebergement.
-Modifier le fichier sites/default/settings.php en y inserrant les bonnes informations pour la connexion à la BD.
+The `new-installation` folder contains the database files.  
+Copy the contents of the `public` folder to your hosting space.  
+Modify the `sites/default/settings.php` file by inserting the correct information for the database connection.
 
 ```php
 <?php
@@ -39,18 +40,18 @@ $databases['default']['default'] = array(
 );
 ```
 
-Les informations à modifier sont :
+The information to modify is:
 
-- nom_de_la_base_de_donnees
-- nom_utilisateur
-- mot_de_passe
+- database_name
+- username
+- password
 
-Les informations à verifier sont :
+The information to verify is:
 
-- 127.0.0.1 : qui peut varier en fonction de l'hebergeur
-- port : qui peut varier en fonction de l'hebergeur
+- `127.0.0.1`: which may vary depending on the host
+- `port`: which may vary depending on the host
 
-Acceder au gestionnaire de base de données par exemple : phpmyadmin ou adminer ...
-Importer la base de donnée presente dans "new-installation/database".
+Access the database manager, for example: phpMyAdmin or Adminer.  
+Import the database located in `new-installation/database`.
 
-Voila, vous avez terminé, votre site est pres à l'utilisation.
+That's it, you're done. Your site is ready for use.

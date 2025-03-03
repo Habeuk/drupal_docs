@@ -1,69 +1,69 @@
-# Gestion des produits
+# Product Management
 
-Les produits représentent des biens ou des services vendus dans votre magasin. Vous pouvez ajouter des produits simples ou des produits variables.
+Products represent goods or services sold in your store. You can add simple products or variable products.
 
-Avant de poursuivre, il est essentiel de comprendre la distinction entre les produits simples et les produits variables.
+Before proceeding, it is essential to understand the distinction between simple products and variable products.
 
-## Produit simple vs Produit variable
+## Simple Product vs. Variable Product
 
-Un produit simple est un produit variable avec une seule variante. En réalité, les produits simples n'existent pas en tant que tels.
+A simple product is a variable product with only one variant. In reality, simple products do not exist as such.
 
 :::info
-On vend toujours une variante d'un produit. Un produit doit avoir au moins une variante, et si nécessaire, plusieurs.
+We always sell a variant of a product. A product must have at least one variant, and if necessary, multiple variants.
 :::
 
-**Exemple 1 :** Pour la vente d'un livre, créez un produit "Livre" et ajoutez une variante pour ce produit.  
-**Exemple 2 :** Pour la vente d'un t-shirt disponible en rouge et bleu, créez un produit "T-shirt" et ajoutez une variante pour chaque couleur.
+**Example 1:** For selling a book, create a product "Book" and add a variant for this product.  
+**Example 2:** For selling a t-shirt available in red and blue, create a product "T-shirt" and add a variant for each color.
 
-## Voir la liste des produits
+## View the Product List
 
-Pour consulter la liste des produits, accédez à : `/admin/commerce/products`  
-![Liste des produits](/assets/liste-des-produits.png)
+To view the list of products, go to: `/admin/commerce/products`  
+![Product list](/assets/liste-des-produits.png)
 
-## Modifier un produit
+## Edit a Product
 
-Pour modifier un produit, cliquez sur le bouton `Modifier` à côté du produit concerné.  
-![Modifier un produit](/assets/modifier-un-produit.png)
+To edit a product, click the `Edit` button next to the relevant product.  
+![Edit a product](/assets/modifier-un-produit.png)
 
-Pour modifier les informations du produit, vous serez redirigé vers la page de modification.  
-![Modifier les informations sur un produit](/assets/modifier-les-informations-sur-un-produit.png)  
-Cette image est numérotée de 1 à 10. Nous allons parcourir chaque point pour expliquer comment les modifier. Certains points concernent le produit, d'autres la variante.
+To modify the product information, you will be redirected to the edit page.  
+![Edit product information](/assets/modifier-les-informations-sur-un-produit.png)  
+This image is numbered from 1 to 10. We will go through each point to explain how to modify them. Some points relate to the product, while others relate to the variant.
 
-### Champs correspondant au produit :
+### Fields Corresponding to the Product:
 
-- **1 :** Marque du produit. Correspond au champ **Marques** dans la page de modification.
-- **2 :** Nom du produit. Correspond au champ **Titre**.
-- **4 :** Description courte. Correspond au champ **Description courte**.
-- **7 :** Descriptions supplémentaires. Correspond au champ **Accordions**.
+- **1:** Product brand. Corresponds to the **Brands** field on the edit page.
+- **2:** Product name. Corresponds to the **Title** field.
+- **4:** Short description. Corresponds to the **Short Description** field.
+- **7:** Additional descriptions. Corresponds to the **Accordions** field.
 
-### Champs correspondant à la variante :
+### Fields Corresponding to the Variant:
 
-Accédez à la page de modification de la variante en cliquant sur le lien **Variation**. Vous verrez une ou plusieurs variantes. Cliquez sur `Modifier` à côté de la variante souhaitée.
+Access the variant edit page by clicking the **Variation** link. You will see one or more variants. Click `Edit` next to the desired variant.
 
-- **3 :** Prix de la variante. Correspond au champ **Prix**.
-- **5 :** Attributs de variation (couleur, taille, etc.). Correspond aux champs **Couleur** et **Taille**.  
-  ![Modifier les informations sur une variante](/assets/modifier-les-informations-sur-une-variante.png)
-- **9 :** Images du produit. Correspond au champ **Galleries**.
+- **3:** Variant price. Corresponds to the **Price** field.
+- **5:** Variation attributes (color, size, etc.). Corresponds to the **Color** and **Size** fields.  
+  ![Edit variant information](/assets/modifier-les-informations-sur-une-variante.png)
+- **9:** Product images. Corresponds to the **Galleries** field.
 
-### Autres champs :
+### Other Fields:
 
-- **6 :** Bouton "Ajouter au panier". Modifiable via : `/admin/config/system/commerceformatage`.  
-  ![Modifier le bouton ajouter au panier](/assets/modifier-le-bouton-ajouter-au-panier.png)
-- **8 :** Bloc de partage. Configurez les clés d'API dans le thème (certains réseaux ne nécessitent pas de clé).
-- **10 :** Bloc d'avis. Modifiez l'apparence ou supprimez-le en suivant les tutoriels sur les layouts.
+- **6:** "Add to Cart" button. Editable via: `/admin/config/system/commerceformatage`.  
+  ![Edit the add to cart button](/assets/modifier-le-bouton-ajouter-au-panier.png)
+- **8:** Share block. Configure API keys in the theme (some networks do not require a key).
+- **10:** Review block. Modify its appearance or remove it by following layout tutorials.
 
-Nous avons terminé avec ces blocs d'affichage.
+We are done with these display blocks.
 
-### Autres caractéristiques
+### Other Features
 
-Tout le contenu situé sous ce bloc est regroupé dans le champ **Autres caractéristiques**. Ces informations sont organisées en sections, chaque section contenant un ou plusieurs champs. Vous pouvez ajouter, modifier ou supprimer des sections.  
-![Modifier les autres caractéristiques](/assets/modifier-les-autres-caracteristiques.png)
+All content located below this block is grouped in the **Other Features** field. This information is organized into sections, with each section containing one or more fields. You can add, modify, or delete sections.  
+![Edit other features](/assets/modifier-les-autres-caracteristiques.png)
 
-## Ajouter un produit
+## Add a Product
 
-Pour ajouter un produit, cliquez sur le bouton `Ajouter un produit` sur la page : `/admin/commerce/products`.  
-![Ajouter un produit](/assets/ajouter-un-produit.png)
+To add a product, click the `Add Product` button on the page: `/admin/commerce/products`.  
+![Add a product](/assets/ajouter-un-produit.png)
 
 :::info
-Vous devez ajouter au moins une variante pour chaque produit. La variante contient le prix, la quantité en stock, les attributs de variation, les images, etc.
+You must add at least one variant for each product. The variant contains the price, stock quantity, variation attributes, images, etc.
 :::

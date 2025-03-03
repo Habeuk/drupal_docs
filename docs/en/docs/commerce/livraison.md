@@ -1,50 +1,50 @@
-# Configuration des Modes de Livraison dans Drupal Commerce
+# Configuring Shipping Methods in Drupal Commerce
 
-L'environnement de livraison est préconfiguré avec des méthodes de livraison fictives. Ces méthodes peuvent être modifiées, supprimées ou complétées par de nouvelles options selon vos besoins. La configuration des modes de livraison s'effectue dans le menu `Configuration` -> `Commerce` -> `Expédition`.
+The shipping environment comes preconfigured with dummy shipping methods. These methods can be modified, deleted, or supplemented with new options according to your needs. Shipping method configuration is done in the `Configuration` -> `Commerce` -> `Shipping` menu.
 
-![Gestion des modes de livraison](/assets/gestion-des-moyens-de-livraison.png)
+![Shipping methods management](/assets/gestion-des-moyens-de-livraison.png)
 
-## Champs Essentiels pour la Configuration d'un Mode de Livraison
+## Essential Fields for Configuring a Shipping Method
 
-Les éléments clés à renseigner pour configurer un mode de livraison sont les suivants :
+The key elements to fill in when configuring a shipping method are as follows:
 
-- **Nom** : Identifiant du mode de livraison (visible uniquement par l'administrateur).
-- **Plugin** : Type de mode de livraison.
-- **Rate label** : Libellé du mode de livraison (affiché au client).
-- **Rate amount** : Montant des frais de livraison.
-- **Activé** : Statut du mode de livraison (actif ou inactif).
+- **Name**: Identifier for the shipping method (visible only to the administrator).
+- **Plugin**: Type of shipping method.
+- **Rate label**: Label for the shipping method (displayed to the customer).
+- **Rate amount**: Shipping fee amount.
+- **Enabled**: Status of the shipping method (active or inactive).
 
-## Types de Modes de Livraison
+## Types of Shipping Methods
 
-Deux types de modes de livraison sont disponibles :
+Two types of shipping methods are available:
 
-1. **Taux Fixe**
-2. **Taux Fixe Appliqué par Article**
+1. **Flat Rate**
+2. **Flat Rate per Item**
 
-### 1. Taux Fixe
+### 1. Flat Rate
 
-Le mode de livraison **Taux Fixe** (ou _Flat Rate_ en anglais) applique des frais de livraison fixes, indépendamment du nombre d'articles commandés, du poids de la commande ou d'autres facteurs. Le coût de livraison reste identique pour toutes les commandes. Cette option peut être ajustée pour offrir une plus grande flexibilité. Par exemple, il est possible de définir des frais de livraison distincts pour différentes zones géographiques, en fonction du poids, de la quantité de produits, etc.
+The **Flat Rate** shipping method applies fixed shipping fees, regardless of the number of items ordered, the weight of the order, or other factors. The shipping cost remains the same for all orders. This option can be adjusted to offer greater flexibility. For example, it is possible to define separate shipping fees for different geographical zones based on weight, product quantity, etc.
 
-### 2. Taux Fixe Appliqué par Article
+### 2. Flat Rate per Item
 
-Le mode de livraison **Taux Fixe Appliqué par Article** (ou _Flat Rate per Item_ en anglais) applique des frais de livraison fixes pour chaque article commandé. Le coût de livraison est donc proportionnel au nombre d'articles. Cette option peut également être personnalisée pour s'adapter à des critères spécifiques, tels que la zone de livraison, le poids ou la quantité de produits.
+The **Flat Rate per Item** shipping method applies fixed shipping fees for each item ordered. The shipping cost is therefore proportional to the number of items. This option can also be customized to adapt to specific criteria, such as the delivery zone, weight, or product quantity.
 
-## Personnalisation des Frais de Livraison
+## Customizing Shipping Fees
 
-### Ajustement en Fonction des Critères Utilisateur
+### Adjustment Based on User Criteria
 
-Les frais de livraison peuvent être ajustés en fonction de critères liés à l'utilisateur. Par exemple :
+Shipping fees can be adjusted based on user-related criteria. For example:
 
-- **Adresse de Facturation** : Définir des frais de livraison variables selon l'adresse de facturation.
-- **Adresse de Livraison** : Définir des frais de livraison variables selon l'adresse de livraison.
+- **Billing Address**: Define variable shipping fees based on the billing address.
+- **Shipping Address**: Define variable shipping fees based on the shipping address.
 
-![Ajustement en fonction de l'utilisateur](/assets/taux-fixe-user.png)
+![Adjustment based on user](/assets/taux-fixe-user.png)
 
-### Ajustement en Fonction des Critères de Livraison
+### Adjustment Based on Shipping Criteria
 
-Les frais de livraison peuvent également être ajustés en fonction de critères spécifiques à la commande, tels que :
+Shipping fees can also be adjusted based on order-specific criteria, such as:
 
-- **Shipment Quantity** : Définir des frais de livraison variables en fonction de la quantité d'articles commandés.
-- **Shipment Weight** : Définir des frais de livraison variables en fonction du poids total de la commande.
+- **Shipment Quantity**: Define variable shipping fees based on the quantity of items ordered.
+- **Shipment Weight**: Define variable shipping fees based on the total weight of the order.
 
-![Ajustement des frais de livraison](/assets/taux-fixe-ajustements.png)
+![Shipping fee adjustments](/assets/taux-fixe-ajustements.png)

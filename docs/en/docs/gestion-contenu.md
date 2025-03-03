@@ -1,16 +1,16 @@
-# Gestion des pages de contenu
+# Managing Content Pages
 
-Pour gerer les pages vous avez deux approches:
+To manage pages, you have two approaches:
 
-- Via la page de contenu
-- Via la liste des pages de contenu.
+- Via the content page
+- Via the list of content pages.
 
-## Via la page de contenu
+## Via the Content Page
 
-Connectez en tant qu'administrateur, vous un onglet `Modifier` en haut de la page. Cliquez dessus pour accéder à l'interface de modification.
-![Modifier une page de contenu](/assets/edit-content-page.png)
+Log in as an administrator, and you will see an `Edit` tab at the top of the page. Click on it to access the editing interface.  
+![Edit a content page](/assets/edit-content-page.png)
 
-## Via la liste des pages de contenu
+## Via the List of Content Pages
 
-Connectez en tant qu'administrateur, naviguez dans le back-office : `Contenu > Blocks contents list`. Vous verrez la liste de toutes les pages de contenu. Cliquez sur le titre de la page pour accéder à l'interface de modification.
-![Liste des pages de contenu](/assets/content-list.png)
+Log in as an administrator and navigate to the back office: `Content > Blocks contents list`. You will see a list of all content pages. Click on the page title to access the editing interface.  
+![List of content pages](/assets/content-list.png)

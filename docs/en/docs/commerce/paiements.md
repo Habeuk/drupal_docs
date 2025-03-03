@@ -1,37 +1,34 @@
-# Gestion des methodes de paiements
+# Payment Methods Management
 
-Nous vous proposons 2 methodes de paiements, le paiement par carte bancaire et le paiement via Paypal.
-Ces deux methodes sont les plus utilisées.
+We offer two payment methods: credit card payments and PayPal payments. These two methods are the most commonly used.
 
-## Paiement par carte bancaire
+## Credit Card Payment
 
-Pour ce mode de paiement, nous utilisons **Stripe** pour effectuer les transactions.
-Stripe est une plateforme de paiement en ligne qui permet aux entreprises de toutes tailles d'accepter les paiements en ligne, notamment par carte bancaire, en toute sécurité.
+For this payment method, we use **Stripe** to process transactions. Stripe is an online payment platform that allows businesses of all sizes to securely accept online payments, including credit card payments.
 
-### Creez un compte stripe
+### Create a Stripe Account
 
-Pour commencer, vous devez creer un compte **Stripe**. Pour cela, rendez-vous sur
-[stripe.com](https://stripe.com/fr) et suivez les instructions.
+To get started, you need to create a **Stripe** account. To do this, go to [stripe.com](https://stripe.com/fr) and follow the instructions.
 
-#### Configurer votre compte
+#### Configure Your Account
 
-- **Complétez votre profil** : Après la validation, Stripe vous demandera de fournir des informations supplémentaires sur votre entreprise (adresse, type d'activité, etc.).
-- **Ajoutez un compte bancaire** : Pour recevoir des paiements, vous devez ajouter un compte bancaire où Stripe pourra transférer les fonds.
+- **Complete Your Profile**: After validation, Stripe will ask you to provide additional information about your business (address, type of activity, etc.).
+- **Add a Bank Account**: To receive payments, you must add a bank account where Stripe can transfer funds.
 
-#### Récupérer les clés d'API
+#### Retrieve API Keys
 
-- **Accédez au tableau de bord** : Une fois votre compte configuré, connectez-vous à votre tableau de bord Stripe.
+- **Access the Dashboard**: Once your account is set up, log in to your Stripe dashboard.
 
-- **Allez dans les paramètres de développeur** : Dans le menu de gauche, cliquez sur "Developers" (Développeurs).
+- **Go to Developer Settings**: In the left-hand menu, click on "Developers."
 
-- **Clés API** : Sous l'onglet "API keys", vous trouverez vos clés API :
+- **API Keys**: Under the "API keys" tab, you will find your API keys:
 
-  - Clé publique (_Publishable key_)
+  - Publishable Key
 
-  - Clé secrète (_Secret key_)
+  - Secret Key
 
-#### Ajouter vos clés d'API à votre boutique
+#### Add Your API Keys to Your Store
 
-Dans votre site drupal, aller sur `commerce` > `configuration` > `commerce` > `payment gateways` > `Carte bancaire (stripe)` et ajoutez vos clés d'API.
+In your Drupal site, go to `Commerce` > `Configuration` > `Commerce` > `Payment Gateways` > `Credit Card (Stripe)` and add your API keys.
 
-![stripe](/assets/clee-api-in-drupal.png)
+![Stripe](/assets/clee-api-in-drupal.png)
