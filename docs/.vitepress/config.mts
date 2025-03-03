@@ -1,4 +1,5 @@
 // .vitepress/config.mts
+// https://vitepress.dev/reference/default-theme-config
 import { defineConfig, type DefaultTheme } from "vitepress";
 
 function getSidebarByLang(lang: string = "fr") {
@@ -124,6 +125,7 @@ function getSidebarByLang(lang: string = "fr") {
 const enConfig: DefaultTheme.LocaleConfig = {
   lang: "en-US",
   label: "English",
+  link: "/en/",
   themeConfig: {
     siteTitle: "Documentation theme",
     sidebar: getSidebarByLang("en"),
@@ -134,6 +136,7 @@ const enConfig: DefaultTheme.LocaleConfig = {
 const frConfig: DefaultTheme.LocaleConfig = {
   lang: "fr-FR",
   label: "Français",
+  link: "/fr/",
   themeConfig: {
     siteTitle: "Ma Boutique",
     sidebar: getSidebarByLang("fr"),
@@ -146,12 +149,20 @@ export default defineConfig({
   title: "Documentation theme",
   description: "Provides all the documentation needed to use the Drupal theme",
   locales: {
+    root: {
+      lang: "en-US",
+      label: "English",
+      title: "Documentation theme",
+      description: "Description in English",
+      link: "/en",
+    },
     "/en/": enConfig,
     "/fr/": frConfig,
   },
 
   // Configuration globale
   themeConfig: {
+    // Activation du routage i18n
     i18nRouting: true,
     logo: "/assets/logo-habeuk.png",
     // // Solution alternative si les sidebars persistent à ne pas s'afficher
