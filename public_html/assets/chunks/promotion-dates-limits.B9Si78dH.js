@@ -1,0 +1,1 @@
+const o="/e-commerce/assets/add-promotion.DwG56iAA.png",s="/e-commerce/assets/promotion-type.CCuNPo9C.png",t="/e-commerce/assets/promotion-conditions.BYBPWSof.png",e="/e-commerce/assets/promotion-dates-limits.B4sCSLNp.png";export{o as _,s as a,t as b,e as c};

@@ -22,14 +22,14 @@ Une **section** représente un bloc de contenu conçu pour mettre en avant ou af
 #### Exemple 1 : Résumés des articles de blog
 
 <figure class="figure">
-  <img src="../assets/images/section-last-article-blog.png" class="figure-img img-fluid rounded" alt="Section des résumés des articles de blog">
+  <img src="/assets/section-last-article-blog.png" class="figure-img img-fluid rounded" alt="Section des résumés des articles de blog">
   <figcaption class="figure-caption">Une section affichant les résumés des derniers articles de blog.</figcaption>
 </figure>
 
 #### Exemple 2 : Résumés des services
 
 <figure class="figure">
-  <img src="../assets/images/section-services.png" class="figure-img img-fluid rounded" alt="Section des résumés des services">
+  <img src="/assets/section-services.png" class="figure-img img-fluid rounded" alt="Section des résumés des services">
   <figcaption class="figure-caption">Une section mettant en avant les résumés des services proposés.</figcaption>
 </figure>
 

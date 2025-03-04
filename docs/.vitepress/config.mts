@@ -107,7 +107,7 @@ function getSidebarByLang(lang: string = "fr") {
     {
       text: translations.theme,
       link: `/${lang}/docs/${filePaths.themeConfig.main}`,
-      collapsed: true,
+      collapsed: false,
       items: [
         {
           text: translations.advancedConfig,
@@ -145,6 +145,7 @@ const frConfig: DefaultTheme.LocaleConfig = {
 
 export default defineConfig({
   base: "/e-commerce/",
+  // base: "./", // pour permettre l'ouverture via le protocole file://
   lang: "en-US",
   title: "Documentation theme",
   description: "Provides all the documentation needed to use the Drupal theme",
@@ -165,7 +166,7 @@ export default defineConfig({
     // Activation du routage i18n
     i18nRouting: true,
     logo: "/assets/logo-habeuk.png",
-    // // Solution alternative si les sidebars persistent à ne pas s'afficher
+    // Solution alternative si les sidebars persistent à ne pas s'afficher
     sidebar: {
       "/en/": enConfig.themeConfig!.sidebar as DefaultTheme.Sidebar,
       "/fr/": frConfig.themeConfig!.sidebar as DefaultTheme.Sidebar,
@@ -180,27 +181,28 @@ export default defineConfig({
       },
     ],
   },
-  // head: [
-  //   ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
-  //   ["link", { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }],
-  //   ["link", { href: "https://fonts.googleapis.com/css2?family=Roboto&display=swap", rel: "stylesheet" }],
-  //   ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=TAG_ID" }],
-  //   [
-  //     "script",
-  //     {},
-  //     `window.dataLayer = window.dataLayer || [];
-  //     function gtag(){dataLayer.push(arguments);}
-  //     gtag('js', new Date());
-  //     gtag('config', 'TAG_ID');`,
-  //   ],
-  // ],
+  outDir: "../public_html",
+  head: [
+    ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
+    ["link", { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }],
+    ["link", { href: "https://fonts.googleapis.com/css2?family=Roboto&display=swap", rel: "stylesheet" }],
+    ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=TAG_ID" }],
+    [
+      "script",
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'TAG_ID');`,
+    ],
+  ],
   // Activation du debug Vite
-  vite: {
-    server: {
-      host: true,
-      port: 5173,
-      strictPort: true,
-    },
-    clearScreen: false,
-  },
+  // vite: {
+  //   server: {
+  //     host: true,
+  //     port: 5173,
+  //     strictPort: true,
+  //   },
+  //   clearScreen: false,
+  // },
 });

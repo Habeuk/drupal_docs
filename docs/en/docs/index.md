@@ -22,14 +22,14 @@ A **section** represents a content block designed to highlight or display specif
 #### Example 1: Blog Post Summaries
 
 <figure class="figure">
-  <img src="../assets/images/section-last-article-blog.png" class="figure-img img-fluid rounded" alt="Blog Post Summaries Section">
+  <img src="/assets/section-last-article-blog.png" class="figure-img img-fluid rounded" alt="Blog Post Summaries Section">
   <figcaption class="figure-caption">A section displaying summaries of the latest blog posts.</figcaption>
 </figure>
 
 #### Example 2: Service Summaries
 
 <figure class="figure">
-  <img src="../assets/images/section-services.png" class="figure-img img-fluid rounded" alt="Service Summaries Section">
+  <img src="/assets/section-services.png" class="figure-img img-fluid rounded" alt="Service Summaries Section">
   <figcaption class="figure-caption">A section showcasing summaries of services offered.</figcaption>
 </figure>
 

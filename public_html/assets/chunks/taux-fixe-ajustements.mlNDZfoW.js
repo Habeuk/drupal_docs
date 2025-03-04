@@ -1,0 +1,1 @@
+const s="/e-commerce/assets/gestion-des-moyens-de-livraison.DAfkeoQL.png",e="/e-commerce/assets/taux-fixe-user.CsXIaWug.png",t="/e-commerce/assets/taux-fixe-ajustements.Bwnd74BE.png";export{s as _,e as a,t as b};
